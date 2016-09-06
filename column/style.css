@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+html,body{
+	height: 100vh;
+	background-color: #feefce;
+	font-size: 3vh;
+	font-weight: bold;
+	color: #555;
+}
+
+
+.wrap{
+	min-height: 100vh;
+	display: flex;
+}
+
+.mian{
+	width: 100%;
+	min-height: 100vh;
+	flex-grow: 1;
+	transition-property: width;
+	transition-duration: .3s; 
+}
+
+.mian:hover{
+	width: 200%;
+}
+
+.mian1{
+	background-image: url(http://lpt.c.yimg.jp/im_sigg2M2AlSNTAULyb6nm_HrcGw---x900-y600-q90/amd/20160509-00010001-seraijp-000-view.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+
+.mian2{
+	background-image: url(http://www.kato-inuneko.com/images/slider/cat02.jpg);
+	background-size: cover;
+	background-position: 23% center;
+}
+
+.mian3{
+	background-image: url(http://bluemark.info/wp-content/uploads/2013/02/3a4465fcdc9a8bb92e40ac1456d52d6f.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+
+.mian4{
+	background-image: url(http://s3-ap-northeast-1.amazonaws.com/matome-img/matome_thumb/matome_20140905154027_54095adb5987d.png);
+	background-size: cover;
+	background-position: 80% center;
+}
+
+.mian5{
+	background-image: url(https://i.ytimg.com/vi/YmUT3gomaxc/maxresdefault.jpg);
+	background-size: cover;
+	background-position: 20% center;
+}

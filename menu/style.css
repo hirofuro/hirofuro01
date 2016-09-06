@@ -1,0 +1,21 @@
+@charset "UTF-8";
+body{
+	padding: 100px 0;
+}
+
+.menu{
+	display: flex;
+	justify-content: center;
+	
+	background-color: #609bfe;
+}
+
+.menu_item{
+	padding: 1em;
+	color: #fff;
+	border-right: solid 1px #4670b6;
+}
+
+.menu_item:first-child{
+	border-left: solid 1px #4670b6;
+}

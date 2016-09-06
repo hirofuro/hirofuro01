@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+html,body{
+	height: 100vh;
+	background-color: #feefce;
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+}
+
+.flex_container{
+	background-color: #dfdfdf;
+	/*ここにでもを書いてください*/
+	
+	height: 100vh;
+	
+	
+	
+	
+}
+
+
+
+
+.flex_item{
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	line-height: 100px;
+	background-color: #fc7a7f;
+	
+	/*ここにでもを書いてください*/
+	
+	
+	
+	
+	
+}
+
+.flex_item:nth-child(3){
+	
+	/*ここにでもを書いてください*/
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+
+.flex_item:nth-child(odd){
+	background-color: #7e9afe;
+}

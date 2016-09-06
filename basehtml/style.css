@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+html,body{
+	height: 100vh;
+	background-color: #feefce;
+	font-size: 3vh;
+	font-weight: bold;
+	color: #555;
+}
+
+
+.wrap{
+	max-width: 980px;
+	min-height: 100vh;
+	height: 100%;
+	margin: 0 auto;
+	background-color: #fff;
+	display: flex;
+	flex-direction: column;
+}
+
+header,aside,main,footer{
+	padding: 20px;
+}
+
+header{
+	height: 60px;
+	background-color: #d5e4fe;
+}
+
+
+
+
+
+
+/*.main_wrap はflexアイテム件Flexコンテナ*/
+.contents{
+	padding: 0;
+	
+	/* flexアイテムの記述 */
+	flex-grow: 1;
+	
+	/* flexコンテナの記述 */
+	display: flex;
+}
+
+aside{
+	background-color: #daffd5;
+	flex: 1 1 25%;
+	order: -1;
+}
+
+main{
+	display: block;
+	background-color: #d5d4fe;
+	flex: 1 1 75%;
+}
+
+
+
+
+
+
+footer{
+	height: 60px;
+	background-color: #fed4d5;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 800px){
+	.contents{
+		display: block;
+	}
+	
+	.header,contents,aside,main,footer{
+		width: 100%;
+	}
+}
