@@ -25,7 +25,9 @@ header,aside,main,footer{
 
 header{
 	height: 60px;
-	background-color: #d5e4fe;
+	background-color: #fb7f57;
+	color: #fff;
+	border: solid 2px currentColor;
 }
 
 
@@ -36,6 +38,7 @@ header{
 /*.main_wrap はflexアイテム件Flexコンテナ*/
 .contents{
 	padding: 0;
+	color: #fff;
 	
 	/* flexアイテムの記述 */
 	flex-grow: 1;
@@ -45,15 +48,17 @@ header{
 }
 
 aside{
-	background-color: #daffd5;
+	background-color: #46ce31;
 	flex: 1 1 25%;
 	order: -1;
+	border: solid 2px currentColor;
 }
 
 main{
 	display: block;
-	background-color: #d5d4fe;
+	background-color: #5950d1;
 	flex: 1 1 75%;
+	border: solid 2px currentColor;
 }
 
 
@@ -63,7 +68,9 @@ main{
 
 footer{
 	height: 60px;
-	background-color: #fed4d5;
+	background-color: #c35056;
+	color: #fff;
+	border: solid 2px currentColor;
 }
 
 
